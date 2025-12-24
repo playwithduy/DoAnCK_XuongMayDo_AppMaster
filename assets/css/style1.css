@@ -1,0 +1,176 @@
+
+header {
+    width: 100%;
+    height: 64px;
+    background: linear-gradient(90deg, #0f172a, #1e293b);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+    position: relative;
+    z-index: 1000;
+    isolation: isolate; /* ⭐ QUAN TRỌNG */
+}
+
+/* LOGO */
+header .logo img {
+    height: 40px;
+    object-fit: contain;
+}
+
+/* NAV CENTER */
+.nav-center {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-center a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 4px;
+    transition: 0.3s;
+}
+
+/* gạch chân hover */
+.nav-center a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: #38bdf8;
+    transition: width 0.3s;
+}
+
+.nav-center a:hover {
+    color: #ffffff;
+}
+
+.nav-center a:hover::after {
+    width: 100%;
+}
+
+/* NAV RIGHT */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-size: 14px;
+}
+
+.nav-right a {
+    color: #e5e7eb;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-right a:hover {
+    color: #ffffff;
+}
+
+/* HELLO USER */
+.hello {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+/* LOGOUT BUTTON */
+.logout-btn {
+    padding: 6px 14px;
+    border: 1px solid #38bdf8;
+    border-radius: 4px;
+    color: #38bdf8 !important;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: #38bdf8;
+    color: #0f172a !important;
+}
+
+footer {
+    width: 100%;
+    background: linear-gradient(180deg, #1f2937, #0b0f14);
+    color: #e5e7eb;
+    padding: 40px 20px 15px;
+    font-family: "Segoe UI", sans-serif;
+    isolation: isolate; /* ⭐ QUAN TRỌNG */
+}
+
+
+/* container bên trong footer */
+footer .footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* LOGO */
+footer .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+footer .logo-icon {
+    width: 54px;
+    height: 54px;
+    border: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .logo-name {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+footer .logo-sub {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #9ca3af;
+}
+
+/* THÔNG TIN */
+footer .footer-info p {
+    margin: 6px 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #d1d5db;
+}
+
+/* COPYRIGHT */
+footer .footer-bottom {
+    border-top: 1px solid #374151;
+    margin-top: 30px;
+    padding-top: 12px;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #9ca3af;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    footer .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .footer-logo {
+        justify-content: center;
+    }
+}
