@@ -48,12 +48,18 @@ Hệ thống được xây dựng nhằm mô phỏng và hỗ trợ quản lý h
 🗺️ Sitemap
 
 Sơ đồ sitemap được thiết kế nhằm mô tả tổng quan các chức năng và luồng điều hướng của hệ thống.
-![Uploading sitemap.jpg…]()
+## 🗺️ Sitemap
+Sơ đồ sitemap được thiết kế nhằm mô tả tổng quan các chức năng và luồng điều hướng của hệ thống.
+
+![Sitemap hệ thống](assets/images/sitemap.jpg)
+
 
 📚 Nguồn tham khảo
 
 https://dony.vn/thoi-trang/
-
 https://dirtycoins.vn/
-
 Các hình ảnh chỉ phục vụ mục đích học tập và minh họa cho đồ án, không sử dụng cho mục đích thương mại.
+
+❤️ Lời cảm ơn
+
+Nhóm xin chân thành cảm ơn Khoa và Giảng viên bộ môn PTUD, đặc biệt là Cô Lê Thùy Trang, đã tận tình hướng dẫn và hỗ trợ nhóm trong suốt quá trình thực hiện đồ án.
