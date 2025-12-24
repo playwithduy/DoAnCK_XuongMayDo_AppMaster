@@ -28,9 +28,6 @@ Hệ thống được xây dựng nhằm mô phỏng và hỗ trợ quản lý h
 
 ---
 
-
----
-
 ## 👥 Thành viên thực hiện
 - **Vỹ Hào**
 - **Văn Duy**
